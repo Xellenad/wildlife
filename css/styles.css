@@ -187,7 +187,7 @@ body {
           align-items: center;
 }
 
-.header_logo h1 {
+.header_logo h2 {
   font-family: 'Roboto';
   font-size: 32px;
   line-height: 60px;
@@ -208,17 +208,24 @@ body {
 }
 
 .header_item:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 0;
   font-family: 'Roboto';
   font-size: 23px;
   line-height: 27px;
-  border-radius: 5px;
   padding-left: 23px;
   padding-right: 23px;
-  padding-top: -5px;
-  border: 2px solid #CD6326;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 2px solid #CD6326;
+  border-radius: 5px;
 }
 
 .header_link {
@@ -228,7 +235,9 @@ body {
   color: #F7F7F7;
 }
 
-.header_link:hover, .header_link:focus, .header_link:active {
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
   text-decoration: underline;
 }
 
@@ -237,7 +246,127 @@ body {
 }
 
 .survival_wrapper {
-  min-height: 780px;
   background-image: url("/img/bg survival.jpg");
+}
+
+.survival_title {
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  padding-top: 200px;
+  margin-bottom: 51px;
+  color: #CD6326;
+}
+
+.survival_subtitle {
+  display: block;
+  width: 274px;
+  height: 108px;
+  margin-bottom: 49px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.survival_input {
+  width: 160px;
+  height: 60px;
+  margin-bottom: 240px;
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  background: #CD6326;
+  border-radius: 5px;
+  color: #F7F7F7;
+}
+
+.latest {
+  background-color: #cccccc;
+}
+
+.latest_contant {
+  background: #CCCCCC;
+}
+
+.latest_title {
+  padding-top: 120px;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.latest_subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 120px;
+}
+
+.animals_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 239px;
+}
+
+.card {
+  width: 300px;
+  height: 360px;
+}
+
+.arrow-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.arrow_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card_deer {
+  background-image: url("/img/animals/deer.jpg");
+}
+
+.card_squirrel {
+  background-image: url("/img/animals/squirrel.jpg");
+}
+
+.card_bird {
+  background-image: url("/img/animals/bird.jpg");
+}
+
+.card_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+  line-height: 36px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 247px;
+  margin-bottom: 10px;
+}
+
+.card_subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+  line-height: 27px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */
