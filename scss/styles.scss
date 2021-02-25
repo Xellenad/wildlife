@@ -12,6 +12,12 @@ body {
   color: #F7F7F7
 }
 
+a {
+  color: #F7F7F7
+}
+
+
+
 
 .header {
   position: fixed;
@@ -36,7 +42,6 @@ body {
   padding-top: 20px;
 }
 
-
 .header_logo {
   display: flex;
   align-items: center;
@@ -49,7 +54,6 @@ body {
   text-transform: uppercase;
   margin-left: 15px;
 }
-
 
 .header_list {
   display: flex;
@@ -65,11 +69,11 @@ body {
   display: flex;
   width: 120px;
   height: 50px;
-  align-items: center;
-  margin-right: 0;
   font-family: 'Roboto';
   font-size: 23px;
   line-height: 27px;
+  align-items: center;
+  margin-right: 0;
   padding-left: 23px;
   padding-right: 23px;
   box-sizing: border-box;
@@ -77,12 +81,10 @@ body {
   border-radius: 5px;
 }
 
-
 .header_link {
   font-size: 23px;
   line-height: 60px;
   text-decoration: none;
-  color: #F7F7F7;
 }
 
 .header_link:hover,
@@ -101,7 +103,6 @@ body {
 
 .survival_wrapper {
   background-image: url('/img/bg\ survival.jpg');
-
 }
 
 .survival_title {
@@ -133,6 +134,14 @@ body {
   background: #CD6326;
   border-radius: 5px;
   color: #F7F7F7;
+  cursor: pointer;
+}
+
+.survival_input:hover{
+  background: #E39128;;
+}
+.survival_input:active{
+  background:  #8F5613;;
 }
 
 
@@ -188,6 +197,9 @@ body {
 .arrow_right {
   display: flex;
 }
+.arrow:hover {
+  cursor: pointer;
+}
 
 .card_deer {
   background-image: url('/img/animals/deer.jpg');
@@ -208,7 +220,6 @@ body {
   justify-content: center;
   margin-top: 247px;
   margin-bottom: 10px;
-
 }
 
 .card_subtitle {
@@ -221,17 +232,16 @@ body {
 
 
 
+
+
 .notified {
   background: #CCCCCC;
-
 }
-
 
 .notified_contant {
   background: #CCCCCC;
   padding-bottom: 239px;
 }
-
 
 .notified_title {
   font-size: 27px;
@@ -246,7 +256,6 @@ body {
   justify-content: center;
 }
 
-
 .notified_input {
   width: 540px;
   height: 60px;
@@ -260,7 +269,6 @@ body {
   border-right: 0;
 }
 
-
 .notified_submit {
   width: 120px;
   height: 59px;
@@ -271,6 +279,14 @@ body {
   background: #CD6326;
   border: 1px solid #CD6326;
   border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+.notified_submit:hover{
+  background: #E39128;
+}
+.notified_submit:active{
+  background:  #8F5613;
 }
 
 
@@ -317,7 +333,6 @@ body {
   font-size: 23px;
   line-height: 60px;
   text-decoration: none;
-  color: #F7F7F7;
 }
 
 .footer_link:hover,
@@ -336,7 +351,15 @@ body {
   align-items: center;
   width: 40px;
   height: 40px;
+  margin-right: 27px;
   background: #F7F7F7;
   border-radius: 20px;
-  margin-right: 27px;
+  cursor: pointer;
+}
+
+.footer-icon_item:hover{
+  background: #E39128;
+}
+.footer-icon_item:active {
+  background: #8F5613;
 }
