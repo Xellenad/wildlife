@@ -104,7 +104,6 @@ body {
 
 }
 
-
 .survival_title {
   font-size: 48px;
   line-height: 72px;
@@ -135,6 +134,11 @@ body {
   border-radius: 5px;
   color: #F7F7F7;
 }
+
+
+
+
+
 
 .latest {
   background-color: #cccccc;
@@ -172,15 +176,16 @@ body {
   justify-content: space-between;
 }
 
-.card{
+.card {
   width: 300px;
   height: 360px;
 }
+
 .arrow-left {
   display: flex;
 }
 
-.arrow_right{
+.arrow_right {
   display: flex;
 }
 
@@ -218,7 +223,7 @@ body {
 
 .notified {
   background: #CCCCCC;
-  
+
 }
 
 
@@ -236,7 +241,7 @@ body {
   margin-bottom: 59px;
 }
 
-.notified_form{
+.notified_form {
   display: flex;
   justify-content: center;
 }
@@ -266,4 +271,72 @@ body {
   background: #CD6326;
   border: 1px solid #CD6326;
   border-radius: 0px 5px 5px 0px;
+}
+
+
+
+
+
+.footer {
+  background-color: #181617
+}
+
+.footer_wrapper {
+  background-image: url('/img/footer-bg.jpg');
+}
+
+
+.footer_contant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.footer_nav {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.footer_list {
+  display: flex;
+}
+
+.footer_item {
+  margin-right: 85px;
+}
+
+.footer_item:last-child {
+  margin-right: 0;
+}
+
+
+.footer_link {
+  font-size: 23px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+.footer_link:hover,
+.footer_link:focus,
+.footer_link:active {
+  text-decoration: underline;
+}
+
+.footer-icon_list {
+  display: flex;
+}
+
+.footer-icon_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #F7F7F7;
+  border-radius: 20px;
+  margin-right: 27px;
 }
