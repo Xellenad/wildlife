@@ -100,7 +100,6 @@ body {
 }
 
 .survival_wrapper {
-  //min-height: 780px;                               // посмотреть
   background-image: url('/img/bg\ survival.jpg');
 
 }
@@ -144,6 +143,7 @@ body {
 
 .latest_contant {
   background: #CCCCCC;
+  padding-bottom: 239px;
 }
 
 
@@ -170,7 +170,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 239px;
 }
 
 .card{
@@ -215,3 +214,56 @@ body {
 }
 
 
+
+
+.notified {
+  background: #CCCCCC;
+  
+}
+
+
+.notified_contant {
+  background: #CCCCCC;
+  padding-bottom: 239px;
+}
+
+
+.notified_title {
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 59px;
+}
+
+.notified_form{
+  display: flex;
+  justify-content: center;
+}
+
+
+.notified_input {
+  width: 540px;
+  height: 60px;
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 27px;
+  background-color: #CCCCCC;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #666666;
+  border-right: 0;
+}
+
+
+.notified_submit {
+  width: 120px;
+  height: 59px;
+  font-family: 'Roboto';
+  font-size: 23px;
+  line-height: 27px;
+  color: #F7F7F7;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+}
